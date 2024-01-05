@@ -147,3 +147,7 @@ p2 {
     margin-right: 10px;
 }
 
+hr {
+    border: 1px solid white;
+    width: 80%;
+  }
