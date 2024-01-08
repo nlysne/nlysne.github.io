@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>About on Nathan Lysne</title>
-    <link>https://nlysne.com/about/</link>
-    <description>Recent content in About on Nathan Lysne</description>
+    <title>About on Homepage of nlysne</title>
+    <link>https://www.nlysne.com/about/</link>
+    <description>Recent content in About on Homepage of nlysne</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© NKL</copyright>
-    <atom:link href="https://nlysne.com/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.nlysne.com/about/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
