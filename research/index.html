@@ -8,7 +8,7 @@
   <meta name='theme-color' content='#FD3519' />
   
 
-  <meta name="generator" content="Hugo 0.121.1">
+  <meta name="generator" content="Hugo 0.121.2">
 
   
 
@@ -36,7 +36,7 @@
   <div class="intro">
     <div class="logo-container">
       <a href="/">
-        <img src='https://www.nlysne.com/images/2022_headshot_crop.jpg' alt="Profile About" class="rounded-logo">
+        <img src='https://www.nlysne.com/images/2022_headshot_crop.jpg' alt="Profile Designs" class="rounded-logo">
       </a>
     </div>
     <h2>Nathan Lysne</h2>
@@ -136,7 +136,7 @@
     <div class="intro">
       <div class="logo-container">
         <a href="/">
-          <img src='https://www.nlysne.com/images/2022_headshot_crop.jpg' alt="Profile About" class="rounded-logo">
+          <img src='https://www.nlysne.com/images/2022_headshot_crop.jpg' alt="Profile Designs" class="rounded-logo">
         </a>
       </div>
       <h2>Nathan Lysne</h2>
@@ -231,7 +231,7 @@
 
 
 <span >
-  <a href="https://www.nlysne.com/"></a>
+  <a href="https://www.nlysne.com/">HOME</a>
    / 
 </span>
 
@@ -249,25 +249,29 @@
   <h1 id="title"> Research Interests</h1>
   <p><p><img src="/images/bumper_osaka.jpg" alt="image"></p>
 <hr>
-<p>So far, I&rsquo;ve been primarily interested in how to control quantum systems and in particular those where the fundamental building block isn&rsquo;t necessarily a qubit. Below, you&rsquo;ll find a brief (loose) summary of some of the research projects I&rsquo;ve contributed to (reverse chronological), and a few links to related work.</p>
+<p>So far, I&rsquo;ve been primarily interested in how to control quantum systems &ndash; in particular, those where the fundamental building block isn&rsquo;t necessarily a qubit. Below, you&rsquo;ll find a loose summary of some of the research projects I&rsquo;ve contributed to (reverse chronological) and a few links to related work.</p>
 <hr>
+<p><a id="2Dioncontrol"></a></p>
 <h3 id="control-over-2d-trapped-ion-arrays">Control over 2D Trapped Ion Arrays</h3>
 <!-- ![image](/images/sidebar_background_02.jpg) -->
 <p>Trapped ions are a workhorse for quantum information and technology efforts. Typically, some number of ions are confined in a single &lsquo;pseudopotential&rsquo; well created by a fast-oscillating radio-frequency electromagentic field that couples to an atomic ion. The ions, pushed together in the same potential well, interact with one another at close range via the Coulomb interaction. Due to their close proximity to one another, the ions readily interact with one another through their common motional sloshing in the well, but their close confinement and shared modes make interacting with specific ions in the well somewhat challenging.</p>
 <p>Instead of trapping multiple ions in a single well, we have a trap with multiple potential wells. When we trap a single ion in each of these wells, with other applied magnetic fields, we can control each ion individually without impacting ions in the other wells. These ions still interact with one another via the Coulomb interaction (albeit much more weakly). What&rsquo;s more, we can create arrangements of these potential wells that enable us to make true two-dimensional arrays of ions while maintaining this control,.</p>
 <p>Ideally, beyond developing tools to control a system such as this, we are interested in investigating two-dimensional quantum phenomenon, such as the canonical &lsquo;spin frustration&rsquo; experiment, as well as structure in the state of the ions that comes from how they interact. There are also potential ways of combining the internal and motional states in such an array.</p>
 <hr>
+<p><a id="aqsimperfections"></a></p>
 <h3 id="imperfections-in-analog-quantum-simulators">Imperfections in Analog Quantum Simulators</h3>
 <p><img src="/images/research_sensitivity_small.jpg" alt="image"></p>
 <p>We are confident that digital, universal fault-tolerant quantum computers will help solving some problems that we cannot reasonably solve with the kinds of computers we have today, but such machines are by most estimates a long ways off. Another related device that is of great interest &ndash; and that might be realized sooner &ndash; is an analog quantum simulator. These systems are special-purpose, built to behave like another system, often one that is very difficult (and sometimes nearly impossible) to realize otherwise.</p>
 <p>The hope is that, by setting up your device to behave in this way, you can let it evolve in time and learn something by observing the system. The catch (just like with analog classical computers) is that these devices are not able to give you same confidence in their result as you can get with a digital computer. If we cannot be as confident about what this computer tells us, what then should we do to understand its result? All errors are not created equal, and neither are all results that you can measure on an analog quantum simulator. Using a small but highly-controllable system, we tried to ask the question: what sorts of <a href="">questions might an analog simulator reliably give a good answer</a> to, even when inevitable errors creep in?</p>
 <hr>
+<p><a id="aqsqudits"></a></p>
 <h3 id="analog-simulation-with-optimal-control">Analog Simulation with Optimal Control</h3>
 <p><img src="/images/research_evo_small.jpg" alt="image"></p>
 <p>There are many types of physical systems out there that are very difficult to study exactly or observe experimentally. In lieu of having an exact model or directly observing them, there is great interest in making another controllable system that can be used to study the same behavior in a tractable way. This is the idea behind analog quantum simulation: make one controlled quantum system to study another.</p>
 <p>How a system evolves in time can be described by a Hamiltonian; how an analog quantum simulator evolves must approximate that Hamiltonian well enough to give the same result when measured. One approach is to make a system that has <em>the same</em> Hamiltonian. One might call this an &rsquo;emulator,&rsquo; as it behaves in a similar way to the system you <em>really</em> want to study. A complimentary approach would be to instead make it so that &ndash; while the Hamiltonian of the system you have might be completely different &ndash; the way it evolves in time still matches the system you&rsquo;re interested in over some interval. This is what we might call a &lsquo;simulator&rsquo;; when measured in the right conditions, it gives the same result you expect from the system you want to study, while at other times? Who knows!</p>
 <p>We worked on using neutral cesium atoms as simulators. We used a computer to optimize how we interact with the cesium atoms to find a means of having it simulate any step forward in time. One takeaway from this work was that the way we think to relate the structure of the system we want to study and the structure of the system we have control over might not be the best way to bridge these two systems. If we can really do any sort of time evolution, there may be better ways to make our simulator evole that lead to <a href="">more accurate results with less overhead</a> (and indeed this ends up being the case, with some interesting caveats).</p>
 <hr>
+<p><a id="qudittomo"></a></p>
 <h3 id="efficient-state-and-process-tomography">Efficient State and Process Tomography</h3>
 <p><img src="/images/research_tomo_small.jpg" alt="image"></p>
 <p>A <em>complete</em> tomographic reconstruction of a quantum state or a quantum process might seem like the ideal means of diagnosing errors in a device, but the number of measurements needed to fully reconstruct states and processes grows quickly with the size of the space you&rsquo;re computing over. We were interested in evaluating how well different constructions for the measurements themselves could lead to the most efficient tomographic reconstruction, and how these efficient protocols might fare with errors inherent in the process of performing tomography on a device. We were able to perform <a href="">various tomographic protocols</a> to reconstruct random states prepared in the same 16-dimensional Hilbert space, as well as <a href="">demonstrate efficient process tomography</a> on a random process in that same space.</p>
