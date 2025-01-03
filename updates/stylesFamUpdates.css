@@ -103,6 +103,59 @@ body {
     padding: 10px;
 }
 
+.update-title-24{
+    margin-top: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    min-width: 800px;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    background: #aac9ad;
+    padding: 10px;
+}
+
+.update-box-24{
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    min-width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #aac9ad;
+    padding: 5px;
+}
+
+.update-photobox-24{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    min-width: 700px;
+    /*width: 100%;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:#aac9ad;
+    padding: 5px;
+}
+
+.update-footnote-24{
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    min-width: 700px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    background: rgb(107, 141, 103);
+    padding: 10px;
+}
+
 .update-img{
     align-self: left;
     max-width: 600px;
