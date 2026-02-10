@@ -49,6 +49,38 @@ body {
     100% {background-position: 1000px 1000px, -400px 400px, 300px 300px;}
 }
 
+.snow-25 {
+  background: none;
+  font-family: Androgyne;
+  background-image: url('images/s1.png'), url('images/s2.png'), url('images/s3.png');
+  /*height: 100%;*/
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index:1;
+  -webkit-animation: snow 30s linear infinite;
+  -moz-animation: snow 30s linear infinite;
+  -ms-animation: snow 30s linear infinite;
+  animation: snow 30s linear infinite;
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  100% {background-position: 1000px 1000px, -400px 400px, 300px 300px;}
+}
+@-moz-keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    100% {background-position: 1000px 1000px, -400px 400px, 300px 300px;}
+}
+@-webkit-keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    100% {background-position: 1000px 1000px, -400px 400px, 300px 300px;}
+}
+@-ms-keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    100% {background-position: 1000px 1000px, -400px 400px, 300px 300px;}
+}
+
 
 .update-title{
     margin-top: 140px;
@@ -153,6 +185,59 @@ body {
     align-items: left;
     justify-content: left;
     background: rgb(107, 141, 103);
+    padding: 10px;
+}
+
+.update-title-25{
+    margin-top: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    min-width: 800px;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    background: #f2d9e6;
+    padding: 10px;
+}
+
+.update-box-25{
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    min-width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f2d9e6;
+    padding: 5px;
+}
+
+.update-photobox-25{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    min-width: 700px;
+    /*width: 100%;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:#f2d9e6;
+    padding: 5px;
+}
+
+.update-footnote-25{
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    min-width: 700px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    background: #cb679b;
     padding: 10px;
 }
 
